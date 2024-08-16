@@ -19,7 +19,7 @@ Day 1
     </body>
 </html>
 
-# FSWDT1
+# FSWDT6
 # Welcome to GitHub Desktop!
 
 This is your README. READMEs are where you can communicate what your project is and how to use it.
