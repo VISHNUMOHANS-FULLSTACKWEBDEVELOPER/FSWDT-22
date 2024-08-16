@@ -1,3 +1,498 @@
+# FSWDT-10
+span{
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    border-radius: 25%;
+}
+
+/* 
+Css Selectors:
+    >> Universal Selector (*)
+    >> ID Selector (#)
+    >> Class Selector (.)
+    >> Element Selector
+    >> Selector List
+    >> Descendant Selector
+    >> Direct Child Selector
+*/
+# FSWDT-11
+/* 1. Element Selector */
+/* h2{
+    color: yellow;
+    background-color: black;
+} */
+/* p{
+    color: yellow;
+    background-color: black;
+} */
+
+/* 2. Element Selector List */
+/* h2,p{
+    color: yellow;
+    background-color: black;
+} */
+
+/* 3. Universal Selector */
+/* *{
+    color: yellow;
+    border: 2px dotted red;
+    background-color: black;
+} */
+
+/* 4. ID Selector */
+/* #h2Count3{
+    color: green;
+    border: 2px dotted red;
+    background-color: black;
+} */
+
+/* 5. Class Selector */
+/* .h2ClassSelector{
+    color: pink;
+    background: black;
+    border: 2px solid blue;
+    width: 40px;
+    height: 40px;
+    border-radius: 80%;
+} */
+
+/* Units in CSS */
+/* px, %, vh, vw, rem, em */
+
+/* 6. Descendant Selector */
+/* parent  any child */
+/* li a{
+    color: white;
+    background: black;
+} */
+/* b i{
+    color: pink;
+    background-color: yellow;
+} */
+
+/* 7. Direct Child */
+/* parent > direct child */
+/* u > i{
+    color: pink;
+    background-color: yellow;
+} */
+
+/* 
+h5{
+    color: yellow;
+    background-color: darkmagenta;
+} */
+
+h6{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    /* padding: 10px 15px 20px 25px; */
+    /* padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 30px; */
+    margin: 30px 25px 20px 10px;
+
+}
+# FSWDT-12
+/* * {
+    box-sizing: border-box;
+    /* padding: 0;
+    margin: 0; 
+} */
+
+
+
+/* h6{
+    background-color: black;
+    color: white;
+    border: 2px solid red; */
+    /* padding-left: 15px;     */
+    /* padding: 10px 0 0 15px; */
+    /* margin-left: 20px; */
+    /* margin: 0 0 0 20px;
+} */
+
+ /* top right bottom left (clk wise directions) */
+/* 
+Spacings:
+    Padding => Internal to Box/Border
+    Margin  => External to Box/Border
+*/
+
+/* ctrl + alt + down key */
+
+/* block */
+/* .displayInCss1{
+    background-color: yellow;
+    color: aqua;
+    height: 55px;
+    width: 40px;
+    display: block;
+}
+
+.displayInCss2{
+    display: block;
+    background-color: red;
+    height: 45px;
+    color: white;
+} */
+
+/* 
+*{
+    padding: 0;
+    margin: 0;
+} */
+
+/* inline */
+/* .displayInCss1{
+    background-color: yellow;
+    color: aqua;
+    height: 55px;
+    width: 40px;
+    display: inline;
+}
+
+.displayInCss2{
+    display: inline;
+    background-color: red;
+    height: 45px;
+    color: white;
+} */
+
+
+/* inline-block */
+/* .displayInCss1{
+    background-color: yellow;
+    color: aqua;
+    height: 55px;
+    width: 40px;
+    display: inline-block;
+}
+
+.displayInCss2{
+    display: inline-block;
+    background-color: red;
+    height: 45px;
+    width: 80px;
+    color: white;
+} */
+
+
+/* Static Position */
+
+/* .positionInCss{
+    position: static;
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+} */
+
+/* Relative Position */
+.positionInCss{
+    position: static;
+    top: 80px;
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+}
+# FSWDT-14
+/* 
+Hover State: 
+        >> Pointing the cursor on the button 
+*/
+/* button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+} */
+
+/* 
+Active State: 
+        >> When we we hold left key of the mouse it will be in active statae
+*/
+/* button:active{
+    border: 10px solid red;
+} */
+
+/* 
+Focus State:
+        >> Indicating you already visisted that button / or opened or clicked the btn
+ */
+ /* button:focus{
+    background-color: pink;
+    color: white;
+ } */
+
+
+ /* anchor un-visisted link state */
+ /* a:link{
+    color: red;
+ } */
+
+ /* a:visited{
+    color: green;
+ } */
+
+ /* a:hover{
+    cursor: progress;
+ } */
+
+ /* span{
+    padding: 8px;
+    margin: 8px;
+    background-color: yellow;
+ } */
+
+ /* First Child */
+/* span:first-child{
+    background-color: red;
+} */
+
+/* Last Child */
+/* span:last-child{
+    background-color: red;
+} */
+
+/* nth child (eg 3rd child) */
+/* span:nth-child(3){
+    background-color: pink;
+} */
+
+/* styles for even child number */
+/* span:nth-child(even){
+    background-color: aqua;
+} */
+
+/* span:nth-child(odd){
+    background-color: aqua;
+} */
+
+
+/* Psuedo Elements :: before */
+/* h1::before{
+    content: "hello ";
+    background-color: black;
+    color: white;
+} */
+
+/* Psuedo Elements :: after */
+/* h1::after{
+    content: " g'morning";
+} */
+
+
+.shape{
+    margin: 100px;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+}
+
+.shape::before{
+    content: " ";
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+}
+
+/* px,%,em,rem,vh,vw */
+
+.shape::after{
+    content: " ";
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+}
+
+
+
+/* 
+>> Flex Box
+>> Animations 
+>> Git Sessions
+>> Static Projects (HTML, CSS)
+>> ....
+*/
+# FSWDT-15
+.parent{
+    /* height: 1150px; */
+    background-color: black;
+    display: flex;
+    /* row, row-reverse, column, column-reverse */
+    flex-direction: center;
+    gap: 10px;
+    /* row: flex-start, flex-end, center, space-around, space-between, space-evenly */
+    justify-content: center;
+
+    /* column: felx-start, flex-end, center, stretch */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.child{
+    height: 100px;
+    width: 100px;
+    /* flex: 1; */
+    background-color: white;
+    border: 2px solid red;
+    /* margin-right: 10px; */
+    justify-content: center;
+}
+
+
+
+
+
+/* Animations */
+button{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Transition Properties */
+    /* transition-delay: 250ms; */
+    /* transition-duration: 500ms; */
+    /* all */
+    /* transition-property: background-color color; */
+    /* linear, ease, ease-in, ease-out, ease-in-out, cubic-bezier(0.22, 0.75, 0.85, -0.32); */
+    /* transition-timing-function: cubic-bezier(0.22, 0.75, 0.85, -0.32); */
+    
+
+    transition: all cubic-bezier(0.22, 0.75, 0.85, -0.32) 250ms 500ms;
+}
+
+button:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+# FSWDT-16
+.box{
+    background-color: black;
+    height: 100vh;
+    /* width: 100vw; */
+}
+
+.ball{
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    background-color: yellow;
+}
+
+.ball:hover{
+    animation: moveTheBall 5s ease-in-out forwards;
+}
+
+@keyframes moveTheBall {
+    25%{
+        transform: translate(400px, 0);
+    }
+    50%{
+        transform: translate(400px,-600px);
+        background-color: aqua;
+        border-radius: 12%;
+    }
+    75%{
+        transform: translate(0,600px);
+        background-color: white;
+        border-radius: 25%;
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 400px){
+    h1{
+        
+    }
+}
+# FSWDT-17
+/* screen size is in the range of 0-1200 */
+/* @media only screen and (max-width: 1200px) {
+  h2 {
+    color: yellow;
+    font-size: 12.5px;
+  }
+  p {
+    color: yellowgreen;
+  }
+} */
+
+/* screen size is in the range of 0-800 */
+/* @media only screen and (max-width: 800px) {
+  h2 {
+    color: red;
+    font-size: 15px;
+  }
+  p {
+    color: aqua;
+  }
+} */
+
+/* screen size is in the range of 0-400 */
+/* @media screen and (max-width: 400px) {
+  h2 {
+    color: blue;
+    font-size: 20px;
+  }
+  p {
+    color: brown;
+  }
+} */
+
+/* 
+>> max-width 
+      Eg: max-width: 400px {Screen size is <=400px} => atmost
+>> min-width
+      Eg: min-width: 400px {Screen size is >=400px} => atleast
+*/
+
+/* screen size is in the range of 400> */
+@media screen and (min-width: 400px) {
+    h2 {
+      color: blue;
+      font-size: 20px;
+    }
+    p {
+      color: brown;
+    }
+  }
+  
+  /* screen size is in the range of 800> */
+  @media screen and (min-width: 800px) {
+    h2 {
+      color: red;
+      font-size: 20px;
+    }
+    p {
+      color: yellow;
+    }
+  }
+  
+  /* 
+  atleast 50 % => min-width
+  atmost 50 % => max-width
+  */
+
 # FSWDT-22
 DAY22
 INTRO TO JS
